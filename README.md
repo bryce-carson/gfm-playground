@@ -338,6 +338,7 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
 ## More Tests
 1. Let's try an alternate SVG, one that is much smaller so we can navigate and work directly on its source code.
 
+<html>
 <div>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
@@ -439,3 +440,4 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
     <text x="0" y="20">Open link within iframe</text>
   </a>
 </svg>
+</html>
