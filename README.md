@@ -30,3 +30,19 @@ With added margin-top and -bottom of zero, the padding between the image element
 Using a measurement tool in the GNU IMP, on a desktop display of 1920x1080 pixels the vertical gap is seven pixels (7px) and on my phone display of 1440 × 3040 pixels the vertical gap is twenty-four pixels (24px).
 
 3. Can the images be vertically joined in standard HTML?<br>
+
+---
+
+# SVG `<a>` element
+
+The SVG standard also includes a linking element, so a visual object can link to another resource just like an HTML anchor.
+
+```html
+<svg viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <a href="https://developer.mozilla.org" target="_self">
+    <text x="0" y="20">Open link within iframe</text>
+  </a>
+</svg>
+```
+
+On GitHub.dev, the GitHub web editor, this linking works in the preview. It's only going to be useful if it also work in normal GitHub README renders.
