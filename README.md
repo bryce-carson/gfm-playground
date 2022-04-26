@@ -334,3 +334,101 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
 ## Results
 - Only directly included SVG images with links work
 - The directly included SVG image is not rendered in GitHub READMEs
+
+## More Tests
+1. Let's try an alternate SVG, one that is much smaller so we can navigate and work directly on its source code.
+<div>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="67.273727mm"
+   height="68.492371mm"
+   viewBox="0 0 67.273727 68.492371"
+   version="1.1"
+   id="svg101595"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="alternate-table-of-contents.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview101597"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.980935"
+     inkscape:cx="122.4448"
+     inkscape:cy="124.12213"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs101592" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-42.260917,-83.937757)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44.760917,83.937757 v 65.992373 h 9.270195"
+       id="path101689" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="49.8573"
+       y="86.517517"
+       id="text104435"><tspan
+         sodipodi:role="line"
+         id="tspan104433"
+         style="stroke-width:0.264583"
+         x="49.8573"
+         y="86.517517">Table of contents</tspan></text>
+    <a
+       id="a115293"
+       xlink:href="http://www.readthefuckingmanual.com/">
+      <text
+         xml:space="preserve"
+         style="font-size:3.97135px;line-height:1.25;font-family:sans-serif;fill:#483737;stroke:#a02c2c;stroke-width:0.372313"
+         x="34.170681"
+         y="150.8019"
+         id="text108039"
+         transform="scale(1.4071687,0.71064684)"><tspan
+           sodipodi:role="line"
+           id="tspan108037"
+           style="fill:#483737;stroke:#a02c2c;stroke-width:0.372313"
+           x="34.170681"
+           y="150.8019">readTheFuckingManual</tspan></text>
+    </a>
+    <a
+       id="a112343"
+       xlink:href="https://www.google.com">
+      <text
+         xml:space="preserve"
+         style="font-size:11.7635px;line-height:1.25;font-family:sans-serif;stroke-width:1.10282"
+         x="143.8667"
+         y="43.097137"
+         id="text111313"
+         transform="scale(0.36524766,2.7378683)"><tspan
+           sodipodi:role="line"
+           id="tspan111311"
+           style="stroke-width:1.10282"
+           x="143.8667"
+           y="43.097137">GOOGLE</tspan></text>
+    </a>
+  </g>
+</svg>
+</div>
