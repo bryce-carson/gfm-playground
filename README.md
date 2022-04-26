@@ -441,3 +441,5 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
   </a>
 </svg>
 </html>
+
+2. Here is another SVG, taken from ![here](https://github.com/cirosantilli/test-git-web-interface/blob/8e394cdb012cba4bcf55ebdb89f36872b4c6c12a/README.md), that is included with the `img` tag, but uses the `foreign-object` SVG element to do some interesting animation even in GitHub READMEs.<br><img src="svg-foreignObject.svg">
