@@ -337,6 +337,7 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
 
 ## More Tests
 1. Let's try an alternate SVG, one that is much smaller so we can navigate and work directly on its source code.
+
 <div>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
