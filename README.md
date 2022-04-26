@@ -442,6 +442,23 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
 </svg>
 </html>
 
-2. Here is another SVG, taken from ![here](https://github.com/cirosantilli/test-git-web-interface/blob/8e394cdb012cba4bcf55ebdb89f36872b4c6c12a/README.md), that is included with the `img` tag, but uses the `foreign-object` SVG element to do some interesting animation even in GitHub READMEs.<br><a href="gfm-playground"><img src="svg-foreignObject.svg"></a>
+2. Here is another SVG, taken from ![here](https://github.com/cirosantilli/test-git-web-interface/blob/8e394cdb012cba4bcf55ebdb89f36872b4c6c12a/README.md), that is included with the `img` tag, but uses the `foreign-object` SVG element to do some interesting animation even in GitHub READMEs.<br><a href="#gfm-playground"><img src="svg-foreignObject.svg"></a>
 
 3. Here is another SVG, taken from ![Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/foreignObject) again.<br><img src="xhtml-foreign-object-namespace.svg">
+
+4. Just a plain link to another place on the page: <a href="#tests">clickMe!</a>
+
+# The playground
+<div align="center">
+This section will attempt to combine what I've learned to create a nice readme. What I have learned is roughly summarized in the table below:
+
+<table>
+<tr><th>Concept</th><th>works?</th></tr>
+<tr><td>SVG animations</td><td>Only through CSS and using SVG foreign-elements</td></tr>
+<tr><td>SVG links</td><td>Only &lt;a&gt; is retained</td></tr>
+<tr><td>Same-page links</td><td>Yes use #heading-name.</td></tr>
+</table>
+</div>
+
+---
+
