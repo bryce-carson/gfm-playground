@@ -16,10 +16,10 @@ Although this rendering issue exists it is not part of the SVG image.
 1. Does the image render as it was drawn?<br><div align="center"><img src="drawing-screenshot.png" style="width:569px;height:439px;"></div>
 
 2. Can the image be reassembled after splitting it along the guide-lines? How large is the padding on different displays? No alignment divs are used in this test.<br>The canvas size is adjusted to each remainder in the image after path division; the canvases, placed atop each other, should add up to 1000 pixels.<br>
-<img src="drawing-part-one.png">
-<img src="drawing-part-two.png">
-<img src="drawing-part-three.png">
-<br>
-The three rendered images are not placed directly after one another. How does this compare to standard HTML rendering?
+ <img src="drawing-part-one.png">
+ <img src="drawing-part-two.png">
+ <img src="drawing-part-three.png">
+ <br>
+ The three rendered images are not placed directly after one another. How does this compare to standard HTML rendering?
 
 3. Can the images be vertically joined in standard HTML?<br>
