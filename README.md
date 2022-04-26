@@ -56,36 +56,9 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
    viewBox="0 0 95.023087 42.196743"
    version="1.1"
    id="svg77829"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="table-of-contents.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview77831"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.447918"
-     inkscape:cx="-13.395309"
-     inkscape:cy="-174.13902"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
-     inkscape:window-x="0"
-     inkscape:window-y="32"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
   <defs
      id="defs77826">
     <linearGradient
@@ -95,8 +68,7 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
        y1="6002.2998"
        y2="6002.2998"
        gradientTransform="matrix(0.96099311,0,0,0.07017544,63.410106,-264.56926)"
-       gradientUnits="userSpaceOnUse"
-       inkscape:collect="always">
+       gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#0082ab"
          offset="0"
@@ -124,8 +96,7 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
        y1="5885.7998"
        y2="5885.7998"
        gradientTransform="matrix(0.96099311,0,0,0.07017544,63.410106,-264.56926)"
-       gradientUnits="userSpaceOnUse"
-       inkscape:collect="always">
+       gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#0082ab"
          stop-opacity="0"
@@ -142,8 +113,7 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
        y1="5808.1001"
        y2="5808.1001"
        gradientTransform="matrix(0.96099311,0,0,0.07017544,63.410106,-264.56926)"
-       gradientUnits="userSpaceOnUse"
-       inkscape:collect="always">
+       gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#ff2ee1"
          stop-opacity=".52923"
@@ -161,8 +131,7 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
        y1="5730.5"
        y2="5730.5"
        gradientTransform="matrix(3.6321,0,0,0.26523,-7.1906,-1511.4)"
-       gradientUnits="userSpaceOnUse"
-       inkscape:collect="always">
+       gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#7d4ad2"
          stop-opacity=".5323"
@@ -200,7 +169,6 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
        id="rect71926" />
     <filter
        style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
        id="filter80552"
        x="-0.096484888"
        y="-0.33032458"
@@ -236,8 +204,6 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
     </filter>
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-60.297017,-130.35417)">
     <rect
@@ -284,14 +250,14 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
            transform="matrix(0.26458333,0,0,0.26458333,60.550119,-263.30664)"><tspan
              x="28.255859"
              y="1529.5026"
-             id="tspan92391">Table of contents</tspan></text>
+             id="tspan101584">Table of contents</tspan></text>
       </g>
     </a>
     <a
-       id="a92231"
+       id="a101409"
        xlink:href="gfm-playground">
       <g
-         id="g92229">
+         id="g101407">
         <rect
            x="67.497017"
            y="143.00336"
@@ -309,7 +275,7 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
            transform="matrix(0.26458333,0,0,0.26458333,60.550119,-262.85542)"><tspan
              x="28.255859"
              y="1547.765"
-             id="tspan92393">1. Up</tspan></text>
+             id="tspan101586">1. GFM playground (go up)</tspan></text>
       </g>
     </a>
     <a
@@ -334,7 +300,7 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
            transform="matrix(0.26458333,0,0,0.26458333,60.550119,-262.83137)"><tspan
              x="28.255859"
              y="1568.3607"
-             id="tspan92395">2. Down</tspan></text>
+             id="tspan101588">2. SVG test results</tspan></text>
       </g>
     </a>
     <a
@@ -359,12 +325,12 @@ On GitHub.dev, the GitHub web editor, this linking works in the preview. It's on
            transform="matrix(0.26458333,0,0,0.26458333,60.550119,-262.85553)"><tspan
              x="28.255859"
              y="1588.9564"
-             id="tspan92397">3. MDN web developer documentation</tspan></text>
+             id="tspan101590">3. MDN web developer documentation</tspan></text>
       </g>
     </a>
   </g>
 </svg>
 
 ## Results
-
-Only directly included SVG images with links work.
+- Only directly included SVG images with links work
+- The directly included SVG image is not rendered in GitHub READMEs
