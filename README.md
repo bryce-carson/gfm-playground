@@ -20,11 +20,13 @@ Although this rendering issue exists it is not part of the SVG image.
 <div style="margin-top:0;margin-bottom:0;">
 <img src="drawing-part-one.png">
 <img src="drawing-part-two.png">
-<img src="drawing-part-three.png">
+<img src="drawing-part-three.png" style="hover:">
 </div>
 
 The three rendered images are not placed directly after one another. How does this compare to standard HTML rendering?
 
 With added margin-top and -bottom of zero, the padding between the image elements is less in the rendered README.
+
+Using a measurement tool in the GNU IMP, on a desktop display of 1920x1080 pixels the vertical gap is seven pixels (7px) and on my phone display of 1440 × 3040 pixels the vertical gap is twenty-four pixels (24px).
 
 3. Can the images be vertically joined in standard HTML?<br>
