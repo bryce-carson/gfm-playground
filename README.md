@@ -23,7 +23,8 @@ Although this rendering issue exists it is not part of the SVG image.
 <img src="drawing-part-three.png">
 </div>
 
-
 The three rendered images are not placed directly after one another. How does this compare to standard HTML rendering?
+
+With added margin-top and -bottom of zero, the padding between the image elements is less in the rendered README.
 
 3. Can the images be vertically joined in standard HTML?<br>
